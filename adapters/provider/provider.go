@@ -47,6 +47,7 @@ type Provider interface {
 }
 
 // ProxyProvider interface
+// 代理服务提供方
 type ProxyProvider interface {
 	Provider
 	Proxies() []C.Proxy
